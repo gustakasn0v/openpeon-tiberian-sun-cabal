@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "tiberian-sun-eva",
   "display_name": "Tiberian Sun EVA",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
   "author": {
     "name": "Florin Bunau",
@@ -49,7 +49,7 @@
     "input.required": {
       "sounds": [
         { "file": "sounds/required1_new_constructions_options.WAV", "label": "New construction options" },
-        { "file": "sounds/required2_select_target.WAV", "label": "Select target" },
+        { "file": "sounds/required2_select_target.WAV", "label": "Select target" }
       ]
     },
     "resource.limit": {
