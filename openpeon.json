@@ -1,0 +1,75 @@
+{
+  "cesp_version": "1.0",
+  "name": "tiberian-sun-eva",
+  "display_name": "Tiberian Sun EVA",
+  "version": "1.0.0",
+  "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
+  "author": {
+    "name": "Florin Bunau",
+    "github": "fbunau"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        { "file": "sounds/start1_gdi_selected.WAV", "label": "Global Defense Initiative, selected" },
+        { "file": "sounds/start2_nod_selected.WAV", "label": "Brotherhood of NOD, selected" },
+        { "file": "sounds/start3_install_complete.WAV", "label": "Install complete" }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        { "file": "sounds/end1_battle_control_terminated.WAV", "label": "Battlecontrol terminated" }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        { "file": "sounds/ack1_building.WAV", "label": "Building.." },
+        { "file": "sounds/ack2_ion_cannon_charging.WAV", "label": "Ion cannon charging.." },
+        { "file": "sounds/ack3_primary_selected.WAV", "label": "Primary building selected" },
+        { "file": "sounds/ack4_repairing.WAV", "label": "Repairing.." }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        { "file": "sounds/complete1_mission_accomplished.WAV", "label": "Mission acomplished" },
+        { "file": "sounds/complete2_construction_complete.WAV", "label": "Construction complete" },
+        { "file": "sounds/complete3_reinforcements_have_arrived.WAV", "label": "Reinforcements have arrived" },
+        { "file": "sounds/complete4_unit_ready.WAV", "label": "Unit ready" }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        { "file": "sounds/error1_our_base_is_under_attack.WAV", "label": "Our base is under attack" },
+        { "file": "sounds/error2_cannot_deploy_here.WAV", "label": "Cannot deploy here" },
+        { "file": "sounds/error3_nuclear_warhead_approaching.WAV", "label": "Nuclear warhead approaching" },
+        { "file": "sounds/error4_structure_lost.WAV", "label": "Structure lost" },
+        { "file": "sounds/error5_unit_lost.WAV", "label": "Unit lost" }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        { "file": "sounds/required1_new_constructions_options.WAV", "label": "New construction options" },
+        { "file": "sounds/required2_select_target.WAV", "label": "Select target" },
+        { "file": "sounds/required3_ion_cannon_ready.WAV", "label": "Ion cannon ready" },
+        { "file": "sounds/required4_nuclear_weapon_available.WAV", "label": "Nuclear weapon available" },
+        { "file": "sounds/required5_airstrike_ready.WAV", "label": "Airstrike ready" }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        { "file": "sounds/limit1_low_power.WAV", "label": "Low power" },
+        { "file": "sounds/limit2_insufficient_power.WAV", "label": "Insufficient power" },
+        { "file": "sounds/limit3_silos_needed.WAV", "label": "Silos needed" },
+        { "file": "sounds/limit4_unable_to_build_more.WAV", "label": "Unable to build more" }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        { "file": "sounds/spam1_unable_to_comply_building_in_progress.WAV", "label": "Unable to comply, building in progress" },
+        { "file": "sounds/spam2_not_ready.WAV", "label": "Not ready" }
+      ]
+    }
+  }
+}
