@@ -2,7 +2,7 @@
   "cesp_version": "1.0",
   "name": "tiberian-sun-eva",
   "display_name": "Tiberian Sun EVA",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
   "author": {
     "name": "Florin Bunau",
@@ -26,9 +26,7 @@
     "task.acknowledge": {
       "sounds": [
         { "file": "sounds/ack1_building.WAV", "label": "Building.." },
-        { "file": "sounds/ack2_ion_cannon_charging.WAV", "label": "Ion cannon charging.." },
-        { "file": "sounds/ack3_primary_selected.WAV", "label": "Primary building selected" },
-        { "file": "sounds/ack4_repairing.WAV", "label": "Repairing.." }
+        { "file": "sounds/ack2_repairing.WAV", "label": "Repairing.." }
       ]
     },
     "task.complete": {
@@ -52,9 +50,6 @@
       "sounds": [
         { "file": "sounds/required1_new_constructions_options.WAV", "label": "New construction options" },
         { "file": "sounds/required2_select_target.WAV", "label": "Select target" },
-        { "file": "sounds/required3_ion_cannon_ready.WAV", "label": "Ion cannon ready" },
-        { "file": "sounds/required4_nuclear_weapon_available.WAV", "label": "Nuclear weapon available" },
-        { "file": "sounds/required5_airstrike_ready.WAV", "label": "Airstrike ready" }
       ]
     },
     "resource.limit": {
