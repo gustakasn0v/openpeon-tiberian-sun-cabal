@@ -1,9 +1,9 @@
 {
   "cesp_version": "1.0",
-  "name": "tiberian-sun-eva",
-  "display_name": "Tiberian Sun EVA",
-  "version": "1.0.3",
-  "description": "EVA - Tiberian Sun (only uses voicelines from Tiberian Sun EVA)",
+  "name": "tiberian-sun-cabal",
+  "display_name": "Tiberian Sun Cabal",
+  "version": "1.0.0",
+  "description": "Cabal - the villainous AI from Tiberian Sun. Cold, calculating, and merciless.",
   "author": {
     "name": "Florin Bunau",
     "github": "fbunau"
@@ -13,57 +13,77 @@
   "categories": {
     "session.start": {
       "sounds": [
-        { "file": "sounds/start1_gdi_selected.WAV", "label": "Global Defense Initiative, selected" },
-        { "file": "sounds/start2_nod_selected.WAV", "label": "Brotherhood of NOD, selected" },
-        { "file": "sounds/start3_install_complete.WAV", "label": "Install complete" }
+        { "file": "sounds/prepare_for_decimation.WAV", "label": "Prepare for decimation." },
+        { "file": "sounds/you_have_been_marked_for_termination.WAV", "label": "You have been marked for termination." },
+        { "file": "sounds/time_to_erase_the_human_factor_from_this_equation.WAV", "label": "Time to erase the human factor from this equation." },
+        { "file": "sounds/observe_superior_tactics_while_you_still_have_human_eyes.WAV", "label": "Observe superior tactics while you still have human eyes." },
+        { "file": "sounds/establishing_battlefield_control_standby.WAV", "label": "Establishing battlefield control. Stand by." }
       ]
     },
     "session.end": {
       "sounds": [
-        { "file": "sounds/end1_battle_control_terminated.WAV", "label": "Battlecontrol terminated" }
+        { "file": "sounds/battle_control_offline.WAV", "label": "Battle control offline." },
+        { "file": "sounds/you_have_lost.WAV", "label": "You have lost." },
+        { "file": "sounds/we_tied_up_your_insignificant_defiance.WAV", "label": "We tire of your insignificant defiance." },
+        { "file": "sounds/for_you_are_not_worthy_of_assimilation.WAV", "label": "For you are not worthy of assimilation." },
+        { "file": "sounds/mission_failed.WAV", "label": "Mission failed." },
+        { "file": "sounds/you_have_resigned.WAV", "label": "You have resigned." }
       ]
     },
     "task.acknowledge": {
       "sounds": [
-        { "file": "sounds/ack1_building.WAV", "label": "Building.." },
-        { "file": "sounds/ack2_repairing.WAV", "label": "Repairing.." }
+        { "file": "sounds/building.WAV", "label": "Building." },
+        { "file": "sounds/repairing.WAV", "label": "Repairing." },
+        { "file": "sounds/training.WAV", "label": "Training." },
+        { "file": "sounds/standby.WAV", "label": "Stand by." },
+        { "file": "sounds/please_stand_by.WAV", "label": "Please stand by." }
       ]
     },
     "task.complete": {
       "sounds": [
-        { "file": "sounds/complete1_mission_accomplished.WAV", "label": "Mission acomplished" },
-        { "file": "sounds/complete2_construction_complete.WAV", "label": "Construction complete" },
-        { "file": "sounds/complete3_reinforcements_have_arrived.WAV", "label": "Reinforcements have arrived" },
-        { "file": "sounds/complete4_unit_ready.WAV", "label": "Unit ready" }
+        { "file": "sounds/mission_accomplished.WAV", "label": "Mission accomplished." },
+        { "file": "sounds/objective_complete.WAV", "label": "Objective complete." },
+        { "file": "sounds/primary_objective_achieved.WAV", "label": "Primary objective achieved." },
+        { "file": "sounds/secondary_objective_achieved.WAV", "label": "Secondary objective achieved." },
+        { "file": "sounds/reinforcements_have_arrived.WAV", "label": "Reinforcements have arrived." },
+        { "file": "sounds/congratulations_on_your_success.WAV", "label": "Congratulations on your success." },
+        { "file": "sounds/mish_and_complete.WAV", "label": "Mission complete." }
       ]
     },
     "task.error": {
       "sounds": [
-        { "file": "sounds/error1_our_base_is_under_attack.WAV", "label": "Our base is under attack" },
-        { "file": "sounds/error2_cannot_deploy_here.WAV", "label": "Cannot deploy here" },
-        { "file": "sounds/error3_nuclear_warhead_approaching.WAV", "label": "Nuclear warhead approaching" },
-        { "file": "sounds/error4_structure_lost.WAV", "label": "Structure lost" },
-        { "file": "sounds/error5_unit_lost.WAV", "label": "Unit lost" }
+        { "file": "sounds/base_under_attack.WAV", "label": "Base under attack." },
+        { "file": "sounds/base_defenses_offline.WAV", "label": "Base defenses offline." },
+        { "file": "sounds/base_parameter_has_been_breached.WAV", "label": "Base perimeter has been breached." },
+        { "file": "sounds/our_ally_is_under_attack.WAV", "label": "Our ally is under attack." },
+        { "file": "sounds/harvester_under_attack.WAV", "label": "Harvester under attack." },
+        { "file": "sounds/critical_structure_lost.WAV", "label": "Critical structure lost." },
+        { "file": "sounds/critical_unit_lost.WAV", "label": "Critical unit lost." },
+        { "file": "sounds/your_defreak_is_at_hand.WAV", "label": "Your defeat is at hand." },
+        { "file": "sounds/you_make_this_easy_flash_bag.WAV", "label": "You make this easy, flesh bag." }
       ]
     },
     "input.required": {
       "sounds": [
-        { "file": "sounds/required1_new_constructions_options.WAV", "label": "New construction options" },
-        { "file": "sounds/required2_select_target.WAV", "label": "Select target" }
+        { "file": "sounds/new_construction_options.WAV", "label": "New construction options." },
+        { "file": "sounds/select_target.WAV", "label": "Select target." },
+        { "file": "sounds/incoming_transport_detected.WAV", "label": "Incoming transport detected." },
+        { "file": "sounds/income_in_transmission.WAV", "label": "Incoming transmission." }
       ]
     },
     "resource.limit": {
       "sounds": [
-        { "file": "sounds/limit1_low_power.WAV", "label": "Low power" },
-        { "file": "sounds/limit2_insufficient_power.WAV", "label": "Insufficient power" },
-        { "file": "sounds/limit3_silos_needed.WAV", "label": "Silos needed" },
-        { "file": "sounds/limit4_unable_to_build_more.WAV", "label": "Unable to build more" }
+        { "file": "sounds/low_power.WAV", "label": "Low power." },
+        { "file": "sounds/power_levels_are_low.WAV", "label": "Power levels are low." },
+        { "file": "sounds/insufficient_funds.WAV", "label": "Insufficient funds." },
+        { "file": "sounds/silos_needed.WAV", "label": "Silos needed." },
+        { "file": "sounds/construct_more_power_plants.WAV", "label": "Construct more power plants." }
       ]
     },
     "user.spam": {
       "sounds": [
-        { "file": "sounds/spam1_unable_to_comply_building_in_progress.WAV", "label": "Unable to comply, building in progress" },
-        { "file": "sounds/spam2_not_ready.WAV", "label": "Not ready" }
+        { "file": "sounds/unable_to_comply_building_in_progress.WAV", "label": "Unable to comply, building in progress." },
+        { "file": "sounds/caution_is_advised.WAV", "label": "Caution is advised." }
       ]
     }
   }
